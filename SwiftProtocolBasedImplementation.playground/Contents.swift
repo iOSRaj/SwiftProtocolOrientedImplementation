@@ -1,7 +1,7 @@
 
 //Common Function
 protocol DisplayFullName {
-    func displayName(name: String)-> String
+    func displayName(name: String) -> String
 }
 
 
@@ -61,7 +61,6 @@ print(person.greet)
 
 //Application 2 Implementation
 var app2Information = Application2()
-//UI Class
 var person2 = Person(displayFullName: app2Information)
 person2.firstName = "Tim"
 person2.lastName = "Cook"
